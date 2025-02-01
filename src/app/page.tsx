@@ -22,7 +22,7 @@ export default function HomePage() {
           ...mockImage,
           ...mockImage,
         ].map((image) => (
-          <div key={image.id} className="flex w-48 ">
+          <div key={image.id} className="flex w-48  ">
             <img className="w-full" src={image.url} alt={`Image ${image.id}`} />
           </div>
         ))}
